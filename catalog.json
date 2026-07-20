@@ -1,0 +1,42 @@
+{
+  "$schema_note": "One row per pack. Required: name, title, genre, tags, blurb, author, and either path (community pack folder in this repo) or bundled:true (ships with the base game). genre must be one of the folder names and must match the folder the pack lives in. CI validates all of this (scripts/validate-catalog.mjs).",
+  "genres": ["fantasy", "horror", "sci-fi", "crime", "post-apocalypse", "western", "mystery", "modern", "other"],
+  "packs": [
+    {
+      "name": "zombie-outbreak",
+      "title": "WHITEOUT",
+      "genre": "horror",
+      "tags": ["zombies", "survival", "winter", "small-town"],
+      "blurb": "Northern Minnesota, deep winter, five weeks after the world went quiet. The cold is as patient as the dead.",
+      "author": "bluewilliams",
+      "bundled": true
+    },
+    {
+      "name": "mafia-omerta",
+      "title": "OMERTA",
+      "genre": "crime",
+      "tags": ["mafia", "1970s", "ascension", "loyalty"],
+      "blurb": "Brickport, New Jersey, 1979. You are nobody in the Marchetti family. That can change.",
+      "author": "bluewilliams",
+      "bundled": true
+    },
+    {
+      "name": "hollowcrown",
+      "title": "HOLLOWCROWN",
+      "genre": "fantasy",
+      "tags": ["dark-fantasy", "frontier", "underground", "dwarven-ruins"],
+      "blurb": "A frontier province above a dead dwarven deep-realm, whose sealed doors have started opening from below.",
+      "author": "bluewilliams",
+      "bundled": true
+    },
+    {
+      "name": "farwake",
+      "title": "FARWAKE",
+      "genre": "sci-fi",
+      "tags": ["space", "stations", "faction-politics", "salvage"],
+      "blurb": "Thirty dying star systems, stations and dome colonies, ships and the people who fix them - and faction politics one bad spark from fire.",
+      "author": "bluewilliams",
+      "bundled": true
+    }
+  ]
+}
