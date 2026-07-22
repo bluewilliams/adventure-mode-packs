@@ -31,6 +31,9 @@ for (const row of rows) {
   seen.add(row.name);
   if (!genres.has(row.genre)) errors.push(`${label}: genre "${row.genre}" not in allowed list`);
   if (row.blurb && row.blurb.length > 300) errors.push(`${label}: blurb over 300 chars`);
+  if (row.campaign !== undefined && !["finite", "open", "saga"].includes(row.campaign)) {
+    errors.push(`${label}: campaign must be finite|open|saga`);
+  }
   if (/[—–]/.test(JSON.stringify(row))) errors.push(`${label}: em/en dash in catalog row`);
 
   if (row.bundled) {

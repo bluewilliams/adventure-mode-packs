@@ -6,6 +6,14 @@ One paragraph: what this world is, what it smells like, why someone should spend
 
 Where the player starts, what just went wrong, and what the first morning looks like.
 
+## The Question
+
+The dramatic question your campaign asks (its endgame clocks are timing it), and the campaign's shape:
+- **question**: one line, e.g. "Does the town live to see the thaw?"
+- **campaign**: `finite` (a story with an ending) | `open` (a world without one) | `saga` (default: the story ends, the world doesn't have to)
+
+Scale matters: the Question's own clock is campaign-scale by authorship - never a 48-hour fuse. Small clocks stay as brutal as your fiction demands.
+
 ## Tone and dials
 
 - **Tone**: (gritty survival / pulp action / slow-burn dread / ...)
