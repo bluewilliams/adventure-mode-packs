@@ -1,5 +1,5 @@
 {
-  "$schema_note": "One row per pack. Required: name, title, genre, tags, blurb, author, and either path (community pack folder in this repo) or bundled:true (ships with the base game). genre must be one of the folder names and must match the folder the pack lives in. CI validates all of this (scripts/validate-catalog.mjs). Optional: campaign (finite|open|saga) - the campaign's shape, shown in the in-game browser.",
+  "$schema_note": "One row per pack. Required: name, title, genre, tags, blurb, author, and either path (community pack folder in this repo) or bundled:true (ships with the base game). genre must be one of the folder names and must match the folder the pack lives in. CI validates all of this (scripts/validate-catalog.mjs). Optional: campaign (finite|open|saga) - the campaign's shape, shown in the in-game browser. Optional: audience ('family' = written for kids and read-together play; shown as a filter on adventure-mode.com/packs).",
   "genres": [
     "fantasy",
     "horror",

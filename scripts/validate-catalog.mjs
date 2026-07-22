@@ -34,6 +34,9 @@ for (const row of rows) {
   if (row.campaign !== undefined && !["finite", "open", "saga"].includes(row.campaign)) {
     errors.push(`${label}: campaign must be finite|open|saga`);
   }
+  if (row.audience !== undefined && row.audience !== "family") {
+    errors.push(`${label}: audience, when present, must be "family"`);
+  }
   if (/[—–]/.test(JSON.stringify(row))) errors.push(`${label}: em/en dash in catalog row`);
 
   if (row.bundled) {

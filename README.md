@@ -4,6 +4,10 @@ The community scenario-pack registry for [Adventure Mode](https://adventure-mode
 
 A pack is a folder of markdown: a world, its secrets, its people, and the dials that make it play the way it should. Anyone's Session Zero output can become one. This repo is where they live, get discovered, and get played.
 
+## Browse first
+
+The friendly view of this whole registry lives at **[adventure-mode.com/packs](https://adventure-mode.com/packs)** - live search, genre filters, and a copy-ready import line per pack. This repo is the submission surface; that page is the shelf.
+
 ## Play a pack from this repo
 
 In your Adventure Mode session, from the Tavern or anywhere:
