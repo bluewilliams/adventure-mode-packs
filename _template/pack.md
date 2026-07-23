@@ -23,7 +23,7 @@ adventure-mode.com/packs and the in-game `packs` browser search exactly these fi
 
 The dramatic question your campaign asks (its endgame clocks are timing it), and the campaign's shape:
 - **question**: one line, e.g. "Does the town live to see the thaw?"
-- **campaign**: `finite` (a story with an ending) | `open` (a world without one) | `saga` (default: the story ends, the world doesn't have to)
+- **campaign**: `finite` (a game with an ending) | `open` (a world without one) | `saga` (default: the game ends, the world doesn't have to)
 
 Scale matters: the Question's own clock is campaign-scale by authorship - never a 48-hour fuse. Small clocks stay as brutal as your fiction demands.
 
