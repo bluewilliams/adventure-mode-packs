@@ -6,6 +6,19 @@ One paragraph: what this world is, what it smells like, why someone should spend
 
 Where the player starts, what just went wrong, and what the first morning looks like.
 
+## Shelf metadata (the store searches these verbatim)
+
+```yaml
+name: your-pack          # lowercase-hyphen; the folder name
+genre: horror            # one of the registry's genre list
+tags: [survival, small-town, low-magic]   # 3-5: theme, setting, what makes it distinct
+blurb: "One or two sentences that make someone want to play it. Under 300 characters."
+campaign: saga           # finite | open | saga
+# audience: family       # only when built for kids and read-together play
+```
+
+adventure-mode.com/packs and the in-game `packs` browser search exactly these fields - a pack without them is findable by nobody. The catalog row in your PR mirrors them.
+
 ## The Question
 
 The dramatic question your campaign asks (its endgame clocks are timing it), and the campaign's shape:
