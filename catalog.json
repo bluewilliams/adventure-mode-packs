@@ -71,6 +71,22 @@
       "author": "bluewilliams",
       "bundled": true,
       "campaign": "saga"
+    },
+    {
+      "name": "volstead",
+      "title": "VOLSTEAD",
+      "genre": "crime",
+      "tags": [
+        "prohibition",
+        "gangsters",
+        "empire-building",
+        "strategy",
+        "politics"
+      ],
+      "blurb": "Calder Bay, 1926. Run your OWN outfit: two guns, one bad corner, a city already carved up. Booze, dope, rackets, elections - build an empire or go legit. Repeal is coming.",
+      "author": "bluewilliams",
+      "bundled": true,
+      "campaign": "saga"
     }
   ]
 }
