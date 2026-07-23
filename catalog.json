@@ -87,6 +87,22 @@
       "author": "bluewilliams",
       "bundled": true,
       "campaign": "saga"
+    },
+    {
+      "name": "stormtithe",
+      "title": "STORMTITHE",
+      "genre": "fantasy",
+      "tags": [
+        "clan-saga",
+        "mythic",
+        "generational",
+        "strategy",
+        "mystery"
+      ],
+      "blurb": "Lead a broken clan back into a valley emptied by a forgotten catastrophe. Seasons, herds, feuds, gods who collect debts in weather, and a crown nobody should want. Your chief will die. Your clan goes on.",
+      "author": "bluewilliams",
+      "bundled": true,
+      "campaign": "saga"
     }
   ]
 }
