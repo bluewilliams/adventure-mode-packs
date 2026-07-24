@@ -25,7 +25,8 @@
       "blurb": "Northern Minnesota, deep winter, five weeks after the world went quiet. The cold is as patient as the dead.",
       "author": "bluewilliams",
       "bundled": true,
-      "campaign": "saga"
+      "campaign": "saga",
+      "length": "campaign"
     },
     {
       "name": "mafia-omerta",
@@ -40,7 +41,8 @@
       "blurb": "Brickport, New Jersey, 1979. You are nobody in the Marchetti family. That can change.",
       "author": "bluewilliams",
       "bundled": true,
-      "campaign": "saga"
+      "campaign": "saga",
+      "length": "campaign"
     },
     {
       "name": "hollowcrown",
@@ -55,7 +57,8 @@
       "blurb": "A frontier province above a dead dwarven deep-realm, whose sealed doors have started opening from below.",
       "author": "bluewilliams",
       "bundled": true,
-      "campaign": "saga"
+      "campaign": "saga",
+      "length": "campaign"
     },
     {
       "name": "farwake",
@@ -70,7 +73,8 @@
       "blurb": "Thirty dying star systems, stations and dome colonies, ships and the people who fix them - and faction politics one bad spark from fire.",
       "author": "bluewilliams",
       "bundled": true,
-      "campaign": "saga"
+      "campaign": "saga",
+      "length": "campaign"
     },
     {
       "name": "volstead",
@@ -86,7 +90,8 @@
       "blurb": "Calder Bay, 1926. Run your OWN outfit: two guns, one bad corner, a city already carved up. Booze, dope, rackets, elections - build an empire or go legit. Repeal is coming.",
       "author": "bluewilliams",
       "bundled": true,
-      "campaign": "saga"
+      "campaign": "saga",
+      "length": "campaign"
     },
     {
       "name": "stormtithe",
@@ -102,7 +107,8 @@
       "blurb": "Lead a broken clan back into a valley emptied by a forgotten catastrophe. Seasons, herds, feuds, gods who collect debts in weather, and a crown nobody should want. Your chief will die. Your clan goes on.",
       "author": "bluewilliams",
       "bundled": true,
-      "campaign": "saga"
+      "campaign": "saga",
+      "length": "campaign"
     },
     {
       "name": "lightstick",
@@ -119,7 +125,8 @@
       "author": "bluewilliams",
       "bundled": true,
       "campaign": "saga",
-      "audience": "family"
+      "audience": "family",
+      "length": "season"
     }
   ]
 }

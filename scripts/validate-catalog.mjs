@@ -34,6 +34,9 @@ for (const row of rows) {
   if (row.campaign !== undefined && !["finite", "open", "saga"].includes(row.campaign)) {
     errors.push(`${label}: campaign must be finite|open|saga`);
   }
+  if (row.length !== undefined && !["one-shot", "season", "campaign"].includes(row.length)) {
+    errors.push(`${label}: length, when present, must be one-shot|season|campaign`);
+  }
   if (row.audience !== undefined && row.audience !== "family") {
     errors.push(`${label}: audience, when present, must be "family"`);
   }

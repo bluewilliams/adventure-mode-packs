@@ -13,7 +13,8 @@ name: your-pack          # lowercase-hyphen; the folder name
 genre: horror            # one of the registry's genre list
 tags: [survival, small-town, low-magic]   # 3-5: theme, setting, what makes it distinct
 blurb: "One or two sentences that make someone want to play it. Under 300 characters."
-campaign: saga           # finite | open | saga
+campaign: saga
+length: campaign   # one-shot (one great evening) | season (a real ending in a dozen nights) | campaign (the long game)           # finite | open | saga
 # audience: family       # only when built for kids and read-together play
 ```
 
