@@ -103,6 +103,23 @@
       "author": "bluewilliams",
       "bundled": true,
       "campaign": "saga"
+    },
+    {
+      "name": "lightstick",
+      "title": "LIGHTSTICK",
+      "genre": "modern",
+      "tags": [
+        "k-pop",
+        "demon-hunters",
+        "family",
+        "music",
+        "urban-fantasy"
+      ],
+      "blurb": "Your idol group just debuted - and learned what the songs are FOR. Hunt the Hush, the demons that steal music and joy, between dance practice and school nights. Family-friendly: real stakes, real mysteries, nobody dies onstage.",
+      "author": "bluewilliams",
+      "bundled": true,
+      "campaign": "saga",
+      "audience": "family"
     }
   ]
 }
